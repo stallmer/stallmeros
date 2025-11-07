@@ -38,13 +38,12 @@ dnf5 -y install \
 	hyprpicker \
 	hypridle \
 	hyprlock \
-	hyprpolkitagent \
 	xdg-desktop-portal-hyprland \
-	hyprland-qtutils \
-	qt6ct-kde \
-	hyprland-qt-support \
-	hyprqt6engine \
 	uwsm
+#	hyprland-qtutils \
+#	qt6ct-kde \
+#	hyprland-qt-support \
+#	hyprqt6engine \
 dnf5 -y copr disable solopasha/hyprland
 
 #### Example for enabling a System Unit File
