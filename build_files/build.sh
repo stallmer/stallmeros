@@ -37,7 +37,11 @@ dnf5 -y install \
 	hyprpaper \
 	hypridle \
 	hyprlock \
-	hyprland-qtutils
+	xdg-desktop-portal-hyprland \
+	hyprland-qtutils \
+	qt6ct-kde \
+	hyprqt6engine \
+	uwsm
 dnf5 -y copr disable solopasha/hyprland
 
 #### Example for enabling a System Unit File
