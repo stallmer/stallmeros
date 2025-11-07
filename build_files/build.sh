@@ -35,11 +35,14 @@ dnf5 -y copr enable solopasha/hyprland
 dnf5 -y install \
 	hyprland \
 	hyprpaper \
+	hyprpicker \
 	hypridle \
 	hyprlock \
+	hyprpolkitagent \
 	xdg-desktop-portal-hyprland \
 	hyprland-qtutils \
 	qt6ct-kde \
+	hyprland-qt-support \
 	hyprqt6engine \
 	uwsm
 dnf5 -y copr disable solopasha/hyprland
