@@ -13,6 +13,8 @@ set -ouex pipefail
 dnf5 install -y \
 	tmux \
 	rclone \
+	zsh \
+	pavucontrol \
 	kitty \
 	neovim \
 	waybar \
