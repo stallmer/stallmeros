@@ -31,7 +31,7 @@ dnf5 install -y \
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-dnf5 -y copr enable lionheartp/hyprland
+dnf5 -y copr enable lionheartp/Hyprland
 dnf5 -y install \
 	hyprland \
 	hyprpaper \
@@ -44,7 +44,7 @@ dnf5 -y install \
 	qt6ct-kde \
 	hyprland-qt-support \
 	hyprqt6engine \
-dnf5 -y copr disable lionheartp/hyprland
+dnf5 -y copr disable lionheartp/Hyprland
 
 #### Example for enabling a System Unit File
 
