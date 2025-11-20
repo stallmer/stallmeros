@@ -39,10 +39,10 @@ dnf5 -y install \
 	hypridle \
 	hyprlock \
 	xdg-desktop-portal-hyprland \
-	uwsm
+	uwsm \
 #	hyprland-qtutils \
+#	hyprland-qt-support
 #	qt6ct-kde \
-#	hyprland-qt-support \
 #	hyprqt6engine \
 dnf5 -y copr disable solopasha/hyprland
 
