@@ -31,7 +31,7 @@ dnf5 install -y \
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-dnf5 -y copr enable solopasha/hyprland
+dnf5 -y copr enable lionheartp/hyprland
 dnf5 -y install \
 	hyprland \
 	hyprpaper \
@@ -40,11 +40,11 @@ dnf5 -y install \
 	hyprlock \
 	xdg-desktop-portal-hyprland \
 	uwsm
-#	hyprland-qtutils \
-#	qt6ct-kde \
-#	hyprland-qt-support \
-#	hyprqt6engine \
-dnf5 -y copr disable solopasha/hyprland
+	hyprland-qtutils \
+	qt6ct-kde \
+	hyprland-qt-support \
+	hyprqt6engine \
+dnf5 -y copr disable lionheartp/hyprland
 
 #### Example for enabling a System Unit File
 
