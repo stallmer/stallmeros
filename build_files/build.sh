@@ -32,8 +32,7 @@ dnf5 install -y \
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 dnf5 -y copr enable lionheartp/Hyprland
-dnf5 -y install \
-	hyprland \
+dnf5 -y install hyprland \
 	hyprpaper \
 	hyprpicker \
 	hypridle \
