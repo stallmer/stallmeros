@@ -40,6 +40,7 @@ dnf5 install -y \
 	hyprtoolkit \
 	uwsm \
 	hyprland-plugins \
+	hyprland-guiutils \
 	hyprland-qt-support \
 	hyprpolkitagent \
 	aquamarine \
