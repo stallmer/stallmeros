@@ -36,7 +36,11 @@ dnf5 install -y \
 	hyprland \
 	hyprpaper \
 	hyprlock \
+	hypridle \
 	hyprutils \
+	hyprpicker \
+	hyprshot \
+	hyprsunset \
 	hyprtoolkit \
 	uwsm \
 	hyprland-plugins \
