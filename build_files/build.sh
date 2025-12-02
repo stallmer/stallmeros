@@ -47,6 +47,7 @@ dnf5 install -y \
 	hyprland-guiutils \
 	hyprland-qt-support \
 	hyprpolkitagent \
+	xdg-desktop-portal-hyprland \
 	aquamarine \
 	hyprcursor
 dnf5 -y copr disable lionheartp/Hyprland
