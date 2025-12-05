@@ -23,7 +23,8 @@ dnf5 install -y \
 	blueman \
 	network-manager-applet \
 	fontawesome-fonts-all \
-	brightnessctl
+	brightnessctl \
+	nextcloud-client
 
 # Use a COPR Example:
 #
