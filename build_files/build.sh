@@ -52,6 +52,12 @@ dnf5 install -y \
 	aquamarine \
 	hyprcursor
 dnf5 -y copr disable lionheartp/Hyprland
+
+# Install faugus-launcher games launcher
+dnf5 -y copr enable faugus/faugus-launcher
+dnf5 install -y \
+	faugus-launcher
+dnf5 -y copr disable faugus/faugus-launcher
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
