@@ -14,14 +14,9 @@ dnf5 install -y \
 	tmux \
 	rclone \
 	zsh \
-	pavucontrol \
 	kitty \
 	neovim \
-	waybar \
 	tailscale \
-	wofi \
-	blueman \
-	network-manager-applet \
 	fontawesome-fonts-all \
 	brightnessctl \
 	nextcloud-client
