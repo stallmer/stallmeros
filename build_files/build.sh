@@ -19,6 +19,7 @@ dnf5 install -y \
 	tailscale \
 	fontawesome-fonts-all \
 	brightnessctl \
+	gnome-tweaks \
 	nextcloud-client
 
 # Use a COPR Example:
