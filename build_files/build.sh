@@ -20,6 +20,7 @@ dnf5 install -y \
 	fontawesome-fonts-all \
 	brightnessctl \
 	gnome-tweaks \
+	android-tools \
 	nextcloud-client
 
 # Use a COPR Example:
