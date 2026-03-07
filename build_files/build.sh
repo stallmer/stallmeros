@@ -22,7 +22,8 @@ dnf5 install -y \
 	brightnessctl \
 	gnome-tweaks \
 	android-tools \
-	nextcloud-client
+	nextcloud-client \
+	waybar
 
 # Use a COPR Example:
 #
