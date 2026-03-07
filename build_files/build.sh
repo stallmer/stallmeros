@@ -11,11 +11,12 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y \
+	emacs \
+	neovim \
 	tmux \
 	rclone \
 	zsh \
 	kitty \
-	neovim \
 	tailscale \
 	fontawesome-fonts-all \
 	brightnessctl \
@@ -29,26 +30,26 @@ dnf5 install -y \
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-#dnf5 -y copr enable lionheartp/Hyprland
-#dnf5 install -y \
-#	hyprland \
-#	hyprpaper \
-#	hyprlock \
-#	hypridle \
-#	hyprutils \
-#	hyprpicker \
-#	hyprshot \
-#	hyprsunset \
-#	hyprtoolkit \
-#	uwsm \
-#	hyprland-plugins \
-#	hyprland-guiutils \
-#	hyprland-qt-support \
-#	hyprpolkitagent \
-#	xdg-desktop-portal-hyprland \
-#	aquamarine \
-#	hyprcursor
-#dnf5 -y copr disable lionheartp/Hyprland
+dnf5 -y copr enable lionheartp/Hyprland
+dnf5 install -y \
+	hyprland \
+	hyprpaper \
+	hyprlock \
+	hypridle \
+	hyprutils \
+	hyprpicker \
+	hyprshot \
+	hyprsunset \
+	hyprtoolkit \
+	uwsm \
+	hyprland-plugins \
+	hyprland-guiutils \
+	hyprland-qt-support \
+	hyprpolkitagent \
+	xdg-desktop-portal-hyprland \
+	aquamarine \
+	hyprcursor
+dnf5 -y copr disable lionheartp/Hyprland
 
 dnf5 -y copr enable ryanabx/cosmic-epoch
 dnf5 install -y \
